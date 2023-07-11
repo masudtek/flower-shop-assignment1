@@ -77,9 +77,9 @@ body {
 .flower-tree-container{
     display: flex;
     align-items: center;
-  /* justify-content: space-around; */
+  justify-content: space-around;
 }
-.flower-tree-pink{
+.flower-tree-pink-image1{
     /* display: block; */
     width: 464px;
     height: 538px;
@@ -89,7 +89,7 @@ body {
     margin-right: 50px;
 }
 
-.flower-tree-blue{
+.flower-tree-pink-image2{
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -97,12 +97,15 @@ body {
     margin-right: 50px;
     /* margin: 30px 30px; */
 }
-.flower-tree-green{
+.flower-tree-pink-image3{
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     margin-right: 350px;
+}
+.flower-tree-container h4{
+    margin-top: 50px;
 }
 .name-tree-container{
     display: flex;
