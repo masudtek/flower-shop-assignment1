@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common style use in web page */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    }
+/* banner style  */
+
+.banner-container{
+    background-color:rgba(229, 84, 115, 0.10);
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-content{
+    max-width: 500px;
+    margin-left: 300px;
+
+}
+.banner-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.banner-image{
+    width: 500px;
+    height: 700px;
+    margin-right: 230px;
+}
+/* Banner style end */
