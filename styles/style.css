@@ -53,7 +53,12 @@ body {
 
 /* featured flower section start */
 .featured-flower{
-    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 128px;
+    text-align: center;    
+    padding-bottom: 50px ;
+    width: 80%;
+    margin: auto;
 }
 .featured-flowers-title{
     margin-top: 180px;
@@ -71,21 +76,25 @@ body {
 }
 .flower-tree-container{
     display: flex;
-    margin-right: 50px;
-  justify-content: space-around;
+    align-items: center;
+  /* justify-content: space-around; */
 }
 .flower-tree-pink{
+    /* display: block; */
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    margin-left: 350px;
+    margin-left: 200px;
+    margin-right: 50px;
 }
+
 .flower-tree-blue{
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    margin-right: 50px;
     /* margin: 30px 30px; */
 }
 .flower-tree-green{
